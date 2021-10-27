@@ -3515,8 +3515,9 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-"vjs@file:../vjs":
+"vjs@https://github.com/hesselbom/vjs":
   version "0.1.0"
+  resolved "https://github.com/hesselbom/vjs#4b5264835cb95530a7f2afeb0c84d671a71af243"
   dependencies:
     cuid "^2.1.8"
     lib0 "^0.2.42"
