@@ -1,0 +1,21 @@
+{
+  "name": "v-sync",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dist": "rm -rf dist && rollup -c",
+    "install": "npm run dist",
+    "test": "jest",
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "rollup": "^2.58.3",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "lib0": "^0.2.42",
+    "vjs": "file:../vjs"
+  }
+}
