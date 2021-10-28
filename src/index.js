@@ -15,7 +15,7 @@ export function writeSyncStep1 (encoder, doc) {
 }
 
 export function writeSyncStep2 (encoder, doc, encodedStateVectors) {
-  const stateVectors = VDoc.decodeSnapshot(encodedStateVectors)
+  const stateVectors = VDoc.decodeStateVectors(encodedStateVectors)
 
   encoding.writeVarUint(encoder, V_MESSAGE_SYNC_2)
   encoding.writeVarUint8Array(encoder, VDoc.encodeSnapshot(doc.getSnapshotFromStateVectors(stateVectors)))
