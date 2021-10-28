@@ -34,7 +34,7 @@ export function readSyncStep2 (decoder, doc) {
 
 export function writeUpdate (encoder, snapshot) {
   encoding.writeVarUint(encoder, V_MESSAGE_UPDATE)
-  encoding.writeVarUint8Array(encoder, snapshot)
+  encoding.writeVarUint8Array(encoder, VDoc.encodeSnapshot(snapshot))
 }
 
 export const readUpdate = readSyncStep2
