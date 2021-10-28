@@ -3510,7 +3510,7 @@ validate-npm-package-license@^3.0.1:
 
 "vjs@https://github.com/hesselbom/vjs":
   version "0.1.0"
-  resolved "https://github.com/hesselbom/vjs#5af1f5eb847cdf21cf642258ac799649edb5aec7"
+  resolved "https://github.com/hesselbom/vjs#411952cc88ffd6f669455e422b01716bc15f000b"
   dependencies:
     lib0 "^0.2.42"
 
