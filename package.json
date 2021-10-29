@@ -1,7 +1,6 @@
 {
   "name": "v-sync",
   "version": "0.1.0",
-  "main": "index.js",
   "license": "MIT",
   "main": "./dist/v-sync.cjs",
   "scripts": {
