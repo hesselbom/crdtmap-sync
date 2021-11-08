@@ -1,10 +1,10 @@
 export default [
   {
     input: 'src/index.js',
-    external: id => /^(lib0|vjs)/.test(id),
+    external: id => /^(lib0|crdtmap)/.test(id),
     output: {
-      name: 'VSync',
-      file: 'dist/v-sync.cjs',
+      name: 'CrdtMapSync',
+      file: 'dist/crdtmap-sync.cjs',
       format: 'cjs',
       sourcemap: true
     }
